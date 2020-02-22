@@ -1,5 +1,5 @@
 window.hashtagWallConfig = {
-    hashtag: '#chill',
+    hashtag: '#skdjfkdjfkjlfds',
     apiBaseUrl: 'http://localhost:8080',
-    updateInterval: 1000
+    updateInterval: 10 * 1000
 };
