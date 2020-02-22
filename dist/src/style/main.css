@@ -12,6 +12,12 @@
     src: url(../fonts/OpenSansEmoji.woff);
 }
 
+@font-face {
+    font-family: 'Viga';
+    /*TODO: change to server address*/
+    src: url(../fonts/Viga-Regular.ttf);
+}
+
 html,
 body {
     font-size: 28px;
@@ -59,6 +65,8 @@ a {
 #title-school-name {
     flex-grow: 2;
     color: white;
+    font-family: 'Viga';
+    font-size: 2vw;
 }
 
 .anim-container {
@@ -78,10 +86,12 @@ a {
     font-weight: 600;
     color: #fed418;
     left: 50%;
+    font-size: 13vh;
 }
 
 .title-hashtag span {
     position: relative;
+    font-size: 13vh;
     text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
 }
 
