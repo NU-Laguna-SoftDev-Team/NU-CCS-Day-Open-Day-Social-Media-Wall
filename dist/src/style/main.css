@@ -21,7 +21,6 @@ body {
     color: #333333;
     background-color: #33408e;
     font-family: 'Open Sans Emoji', Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    /* overflow: hidden; */
 }
 
 img {
@@ -35,21 +34,46 @@ a {
 
 #title-container {
     position: fixed;
+    display: flex;
+    align-items: center;
     top: 0;
     left: 0;
+    padding-left: 2%;
     width: 100%;
     color: #333333;
     background-color: #33408e;
 }
 
+#title-school-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#title-school-logo {
+    margin-right: 1vw;
+    width: 53px;
+    max-width: 10vw;
+}
+
+#title-school-name {
+    flex-grow: 2;
+    color: white;
+}
+
 #title-hashtag {
-    font-size: 6rem;
+    flex-grow: 2;
+    font-size: 11vh;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald';
     font-weight: 600;
     color: #fed418;
+}
+
+#title-social-icons {
+    flex: 1;
 }
 
 #card-container {
