@@ -61,15 +61,28 @@ a {
     color: white;
 }
 
-#title-hashtag {
+.anim-container {
+    transform: rotate(-5deg) skew(-10deg);
+    text-transform: uppercase;
+    font-size: 13vh;
+    margin: 0;
+}
+
+.title-hashtag {
+    transform: translateX(-50%);
     flex-grow: 2;
-    font-size: 11vh;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Oswald';
     font-weight: 600;
     color: #fed418;
+    left: 50%;
+}
+
+.title-hashtag span {
+    position: relative;
+    text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px, #533d4a 5px 5px, #533d4a 6px 6px;
 }
 
 #title-social-icons {

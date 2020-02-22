@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NU Laguna Social Media Wall</title>
-    <link rel="shortcut icon" href="src/png/school-logo.png">
+    <link rel="shortcut icon" href="src/png/school-logo.png" />
     <script src="js/modernizr.custom.js"></script>
 
     <link href="src/style/normalize.css" rel="stylesheet" />
@@ -20,10 +20,14 @@
         <div id="title-school-container">
             <div id="title-school-logo"><img src="src/png/school-logo.png" /></div>
             <div id="title-school-name">
-                <p>NATIONAL<br>UNIVERSITY</p>
+                <p>NATIONAL<br/>UNIVERSITY</p>
             </div>
         </div>
-        <div id="title-hashtag"></div>
+
+        <!-- <div id="title-hashtag"></div> -->
+        <div class="anim-container">
+            <span class="title-hashtag">#NUOpenDay</span>
+        </div>
         <div id="title-social-icons"></div>
     </div>
 
@@ -32,7 +36,7 @@
     <script type="text/javascript" src="main.1711c354d7c87b32da7e.js?2d0fbeaf662953191014"></script>
 
     <!-- <script src="js/masonry.pkgd.min.js"></script> -->
-    <script src="js/imagesloaded.js"></script>
+    <!-- <script src="js/imagesloaded.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/AnimOnScroll.js"></script>
     <script>
@@ -41,8 +45,11 @@
             maxDuration: 0.7,
             viewportFactor: 0.2
         });
-    </script>
-
+    </script> -->
+    <script src="src/script/jquery.min.js"></script>
+    <script src="src/script/jquery.lettering.js"></script>
+    <script src="src/script/TweenMax.min.js"></script>
+    <script src="src/script/headerAnim.js"></script>
 </body>
 
 </html>
