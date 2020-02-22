@@ -44,10 +44,12 @@ a {
     align-items: center;
     top: 0;
     left: 0;
+    right: 0;
     padding-left: 2%;
+    padding-bottom: 1%;
     width: 100%;
     color: #333333;
-    background-color: #33408e;
+    background: rgb(51, 64, 142);
 }
 
 #title-school-container {
