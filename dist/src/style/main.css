@@ -72,7 +72,7 @@ a {
 }
 
 .anim-container {
-    transform: rotate(-5deg) skew(-10deg);
+    transform: rotate(-3deg) skew(-10deg);
     text-transform: uppercase;
     font-size: 13vh;
     margin: 0;
