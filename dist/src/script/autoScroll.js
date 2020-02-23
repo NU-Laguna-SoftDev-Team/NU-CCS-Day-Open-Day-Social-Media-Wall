@@ -1,7 +1,7 @@
     var fps = 100;
-    var speedFactor = 0.003;
+    var speedFactor = 0.001;
     var minDelta = 1;
-    var autoScrollSpeed = 20;
+    var autoScrollSpeed = 10;
     var autoScrollTimer, restartTimer;
     var isScrolling = false;
     var prevPos = 0,
