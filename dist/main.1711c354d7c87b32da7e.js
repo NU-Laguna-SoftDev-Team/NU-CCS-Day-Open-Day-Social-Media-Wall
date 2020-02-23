@@ -4070,7 +4070,7 @@
                 t.forEach(function(t) {
                     var n = $(p(t)).get(0);
                     e.push(n)
-                }), $("#card-container").prepend(e), u()("#card-container", function() { f.prepended(e) })
+                }), $("#card-container").append(e), u()("#card-container", function() { f.appended(e) })
             }
         })
     }
