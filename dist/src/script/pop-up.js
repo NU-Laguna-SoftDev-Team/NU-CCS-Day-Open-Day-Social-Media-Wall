@@ -69,10 +69,18 @@ $.getJSON(window.hashtagWallConfig.apiBaseUrl + "/posts", function(posts) {
 
 var modal = document.querySelector(".modal");
 
-function toggleModal() {
+$(document).ready(function() {
+    setTimeout(toggleModalShow, 15000);
+})
+
+function toggleModalShow() {
     $("#popup").remove();
     $("#modal-content").append(cardTemplate(post));
     modal.classList.toggle("show-modal");
-    //setTimeout(toggleModal, 3000);
+    setTimeout(toggleModalHide, 3000);
 }
-setInterval(toggleModal, 15000);
+
+function toggleModalHide() {
+    modal.classList.toggle("show-modal");
+    setTimeout(toggleModalShow, 15000);
+}
